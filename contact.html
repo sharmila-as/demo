@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Grandvo Technologies</title>
+  <meta name="description" content="Get in touch with Grandvo Technologies. Call, WhatsApp or fill our contact form to start your project today." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230f1e3d'/><text y='.88em' font-size='72' x='14' font-family='Georgia,serif' font-weight='900' fill='%23e8b84b'>G</text></svg>" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">G</div>
+      <div class="logo-text">Grandvo<small>Technologies</small></div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary nav-cta">Get Started</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Get Started</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span>Contact</span>
+    </div>
+    <div class="eyebrow" style="justify-content:center;">
+      <div class="eyebrow-line"></div>
+      <span class="eyebrow-text">Get In Touch</span>
+      <div class="eyebrow-line"></div>
+    </div>
+    <h1 class="section-title">Let's <span class="highlight">Talk</span></h1>
+    <p class="section-subtitle" style="margin:0 auto; max-width:540px;">Have a project in mind, a question, or just want to explore how we can help? We'd love to hear from you.</p>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Info -->
+      <div class="contact-info">
+        <div class="cic reveal">
+          <div class="cic-icon">📞</div>
+          <div class="cic-text">
+            <h4>Phone</h4>
+            <a href="tel:9790369743">+91 97903 69743</a>
+            <small>Mon – Sat, 9 AM – 6 PM IST</small>
+          </div>
+        </div>
+        <div class="cic reveal reveal-delay-1">
+          <div class="cic-icon">💬</div>
+          <div class="cic-text">
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/919790369743?text=Hi%2C%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noopener">+91 97903 69743</a>
+            <small>Quick replies, usually within minutes</small>
+          </div>
+        </div>
+        <div class="cic reveal reveal-delay-2">
+          <div class="cic-icon">📧</div>
+          <div class="cic-text">
+            <h4>Email</h4>
+            <a href="mailto:info@grandvo.com">info@grandvo.com</a>
+            <small>We respond within 24 hours</small>
+          </div>
+        </div>
+        <div class="cic reveal reveal-delay-3">
+          <div class="cic-icon">📍</div>
+          <div class="cic-text">
+            <h4>Location</h4>
+            <p>Tamil Nadu, India</p>
+            <small>Serving clients worldwide</small>
+          </div>
+        </div>
+        <div class="wa-highlight reveal">
+          <div style="font-size:2.5rem;">💬</div>
+          <h3>Prefer WhatsApp?</h3>
+          <p>Chat with us directly — fast, personal and convenient.</p>
+          <a class="wa-btn" href="https://wa.me/919790369743?text=Hi%2C%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noopener">Start Chat →</a>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-box reveal reveal-delay-1">
+        <h3>Send Us a Message</h3>
+        <p>Fill in the form below and our team will get back to you within one business day.</p>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" />
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" />
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="" disabled selected>Select a service...</option>
+              <option>Digital Marketing</option>
+              <option>Branding</option>
+              <option>Web App / Development</option>
+              <option>Mobile Application</option>
+              <option>Graphics Design</option>
+              <option>UX / UI Design</option>
+              <option>Business Consulting</option>
+              <option>Multiple Services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project, goals, timeline or any questions you have..."></textarea>
+            <span class="form-error"></span>
+          </div>
+          <button type="submit" class="btn btn-gold" style="width:100%; justify-content:center; font-size:1rem; padding:16px 24px;">
+            Send Message &rarr;
+          </button>
+          <div class="form-success" id="formSuccess">
+            ✅ Thank you! Your message has been received. We'll be in touch within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="map-section">
+  <div class="container">
+    <div class="center reveal" style="margin-bottom:40px;">
+      <div class="eyebrow" style="justify-content:center;">
+        <div class="eyebrow-line"></div>
+        <span class="eyebrow-text">Find Us</span>
+        <div class="eyebrow-line"></div>
+      </div>
+      <h2 class="section-title">Our <span class="highlight">Location</span></h2>
+    </div>
+    <div class="map-wrap reveal">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125388.25897397!2d76.9355!3d11.0168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Grandvo Technologies Location — Tamil Nadu">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-mark footer-logo-mark">G</div>
+          <div class="logo-text footer-logo-text">Grandvo<small>Technologies</small></div>
+        </a>
+        <p>Empowering brands with smart strategies and creative technology solutions that drive real, measurable growth.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">f</a>
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">𝕏</a>
+          <a href="#" class="social-link">▶</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Digital Marketing</a></li>
+          <li><a href="services.html">Branding</a></li>
+          <li><a href="services.html">Web Development</a></li>
+          <li><a href="services.html">Mobile Apps</a></li>
+          <li><a href="services.html">UX/UI Design</a></li>
+          <li><a href="services.html">Business Consulting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item"><span>📞</span><a href="tel:9790369743">+91 97903 69743</a></div>
+        <div class="footer-contact-item"><span>💬</span><a href="https://wa.me/919790369743?text=Hi%2C%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noopener">WhatsApp Us</a></div>
+        <div class="footer-contact-item"><span>📧</span><a href="mailto:info@grandvo.com">info@grandvo.com</a></div>
+        <div class="footer-contact-item"><span>📍</span><p>Tamil Nadu, India</p></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 <a href="index.html">Grandvo Technologies</a>. All rights reserved.</p>
+      <p>Crafted with ❤️ in Tamil Nadu, India</p>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/919790369743?text=Hi%2C%20I%20am%20interested%20in%20your%20services" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <span class="wa-tooltip">Chat with us!</span>💬
+</a>
+<script src="script.js"></script>
+</body>
+</html>
